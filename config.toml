@@ -49,7 +49,7 @@ theme = 'hugo-theme-hello-friend'
 
     [languages.en.params.logo]
       logoText = "BeginIT"
-      logoHomeLink = "beginit.su/"
+      logoHomeLink = "/beginit.su/"
     # or
     #
     # path = "/img/beginIt-icon.png"
