@@ -1,0 +1,126 @@
+---
+title: ""
+draft: false
+---
+
+<style>
+    .qr {
+        margin: 0px auto;
+        display: flex;
+    }
+    .qr img {
+        width: 100px;
+        height: 100px;
+    }
+    .para {
+        display: flex;
+        margin-left: 20px;
+    }
+    .soc {
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 100px;
+    }
+    .soc_med {
+        text-decoration: none;
+    }
+    .soc_med svg {
+        width: 20px;
+        height: 20px;
+    }
+    .soc a:nth-child(2), .soc a:nth-child(3), .soc a:nth-child(4) {
+        margin-left: 5px;
+    }
+    .authors-list {
+        display: flex;
+    }
+    .authors-list img:hover {
+        border:  2px dashed #D48130;
+    }
+    .author {
+        display: flex;
+    }
+    .authors {
+        margin: 3px;
+    }
+    .designer {
+        display: flex;
+        margin-left: 40%;
+    }
+    .profile-link {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .h1s {
+        display: flex;
+        justify-content: space-between;
+    }
+    .h1s:nth-child(2) {
+        margin-right: 20%;
+    }
+    img {
+      width: 200px;
+      border: none;
+    }
+
+    .img__active {
+      width: 200px;
+      border: 3px solid green;
+    }
+    .opt {
+        display: none;
+    }
+    @media screen and (max-width: 810px) {
+        .h1s {
+            display: block
+        }
+        .h1s:nth-child(2){
+            margin-left: 2000px;
+            opacity: 0;
+            display: none;
+        }
+        .authors-list {
+            display: block;
+            margin: 0px;
+        }
+        .author {
+            display: block;
+            margin: 10px 0px;
+        }
+        .authors {
+            margin: 1px;
+        }
+        .designer {
+            display: block;
+            margin: 10px 0px;
+        }
+        .opt {
+            display: block
+        }
+    }
+</style>
+<div class="h1s">
+    <h1>Авторы</h1>
+    <h1>Дизайнеры</h1>
+</div>
+<div class="authors-list" id="authors">
+    <div class="author">
+        <h2 class="opt">Авторы</h2>
+        <a href="https://t.me/Itdobro" class="authors" target="_blank">
+        <img class="profile-link" src="https://cdn.discordapp.com/attachments/650681889308278785/902303152118845470/ananazz.jpg" alt="ananazz" title="Ananaz - создатель блога, автор статей и проектов">
+        </a>
+    </div>
+    <div class="designer">
+        <h2 class="opt">Дизайнеры</h2>
+        <a href="https://t.me/sm1rn0fskiy" class="designers" target="_blank">
+            <img class="profile-link" src="https://cdn.discordapp.com/attachments/650681889308278785/905102822528409670/enot.png" alt="sergo" title="Sergo - Дизайнер обоев для PIN3APPLE">
+        </a>
+    </div>
+</div>
+
+<h2>Предложить статью</h2>
+<h3>Если вы хотите предложить свою статью, <a href="mailto:ananasfructey@gmail.com?subject=[ЗАЯВКА_НА_ПУБЛИКАЦИЮ_СТАТЬИ]">отправьте</a> мне её на рассмотрение. <br>
+    Так же вы можете написать мне на эту тему в <a href="https://t.me/Itdobro" target="_blank">Telegram</a>. <br>
+    Всегда рад поделиться с читателями моего скромного блога вашими наблюдениями и идеями.</h3>
+    <span>Все авторы попадают в <a href="#authors" ontoggle="authors()">список авторов</a>, просьба ознакомится с <a href="/authterms/">правилами для авторов</a>.</span>

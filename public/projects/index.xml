@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on BeginIT</title>
+    
+    
+    
+    <link>/home/ananazz/pr/BeginIt_blog/output/projects/</link>
+    <description>Recent content in Projects on BeginIT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>ANANAZZ - BEGINIT</copyright>
+    <lastBuildDate>Thu, 28 Oct 2021 01:15:03 +0300</lastBuildDate>
+    
+	<atom:link href="/home/ananazz/pr/BeginIt_blog/output/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PIN3APPLE</title>
+      <link>/home/ananazz/pr/BeginIt_blog/output/projects/pin3apple/</link>
+      <pubDate>Thu, 28 Oct 2021 01:15:03 +0300</pubDate>
+      
+      <guid>/home/ananazz/pr/BeginIt_blog/output/projects/pin3apple/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://cdn.discordapp.com/attachments/650681889308278785/903180849736990740/unknown.png&#34;/&gt;
+          
+        
+        
+        
+          PIN3APPLE - небольшая утилита, помогающая быстро настроить конфиг I3.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,82 @@
+baseURL = 'http://beginit.su/'
+languageCode = 'ru-ru'
+title = '🧐 BeginIT'
+theme = 'hugo-theme-hello-friend'
+[taxonomies]
+  tag = "tags"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 3
+
+  # Show reading time in minutes for posts
+  #showReadingTime = true
+
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  # toc = true
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
+
+
+
+[languages]
+  [languages.en]
+    title = "BeginIT"
+    subtitle = "A little IT blog "
+    keywords = "beginit"
+    copyright = "ANANAZZ - BEGINIT"
+    menuMore = "Другое"
+    writtenBy = "Автор статьи: "
+    readMore = "Читать больше"
+    readOtherPosts = "Другие статьи"
+    newerPosts = "Новые посты"
+    olderPosts = "Более старые посты"
+    minuteReadingTime = "минуты чтения"
+    dateFormatSingle = "02-01-2006"
+    dateFormatList = "02-01-2006"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
+
+    [languages.en.params.logo]
+      logoText = "BeginIT"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/beginIt-icon.png"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "CV"
+        name = "CV"
+        url = "/CV"
+      [[languages.en.menu.main]]
+        identifier = "GIT"
+        name = "GIT"
+        url = "https://github.com/Avdushin"
+      [[languages.en.menu.main]]
+        identifier = "authorth"
+        name = "Авторы"
+        url = "/authorth"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Проекты"
+        url = "/projects"
+      [[languages.en.menu.main]]
+        identifier = "sup"
+        name = "Поддержать"
+        url = "/sup"

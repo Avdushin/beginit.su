@@ -1,0 +1,105 @@
+---
+title: "PIN3APPLE"
+date: 2021-10-28T01:15:03+03:00
+description: "PIN3APPLE - небольшая утилита, помогающая быстро настроить конфиг I3."
+cover: "https://cdn.discordapp.com/attachments/650681889308278785/903180849736990740/unknown.png"
+tags: ["Linux", "i3", "Софт", "Проекты"]
+draft: false
+---
+
+<style>
+	.sup{
+		display: flex;
+		justify-content: center;
+	}
+	.sup img {
+		width: 100px;
+		height: 100px;
+		border-radius: 20%;
+		margin-top: 10px;
+	}
+	.sup img:nth-child(1) {
+		margin-left: 10px;
+	}
+	.sup img:hover {
+		transform: scale(1.04);
+		transition: all .5s;
+		border-radius: 4px;
+	}
+</style>
+
+<p><a href="#" style="color: yellow;">PIN3APPLE</a> - небольшая утилита, с помощью которой можно быстро настроить I3 linux дистрибутивы, такие как:<br>
+<a href="https://getsol.us/home/" target="blank" style="color: #5195E3;">Solus</a> - это независимо разработанная операционная система для архитектуры x86-64, основанная на ядре Linux и имеющая выбор из собственной среды рабочего стола Budgie, GNOME, MATE или KDE Plasma. <br>
+<a href="https://ubuntu.com/" target="blank" style="color: #DD4814;">Ubuntu</a> -  дистрибутив GNU/Linux, основанный на Debian GNU/Linux. <br>
+<a href="https://manjaro.org/" target="blank" style="color: #35BF5C;">Manjaro</a> - Manjaro - это профессионально созданная операционная система, подходящая для замены Windows или MacOS.<br>
+<a href="https://getfedora.org/" target="blank" style="color: #51A2DA;">Fedora</a> - это отточенная, легкая в использовании операционная система для переносных и настольных компьютеров с полным набором инструментов для разработчиков и производителей всех видов. <br>
+</p>
+
+<p>На случай если я решу перейти на другой Linux дистрибутив и мне нужно будет заново устанавливать систему, я написал небольшую утилитку, которая помогает быстро настроить конфиг i3 и установить нужные мне компоненты:</p>
+
+<b>Приложения:</b> <br>
+
+<ul>
+	<li>Sublime text 4  -  мой любимый редактор кода</li>
+	<li>Polybar - панель (панель задач) </li>
+	<li>Kitty - терминал </li>
+	<li>Krita - редактор изображений  </li>
+	<li>Variety - обои рабочего стола с простым и понятным графическим интерфейсом </li>
+	<li>Flameshot - создание скриншотов </li>
+	<li>Rofi - системное меню</li>
+	<li>Discord - соц.сеть для общения с друзьями </li>
+	<li>Steam - лаунчер для игр </li>
+	<li>Telegram - месенджер</li>
+	<li>Gcolor3 - подборка цветов hex, RGB/RGBA </li>
+	<li>Lxappearance  - утилита для настройки темы  </li>
+</ul>
+
+<b>Темы:</b>
+
+<ul>
+	<li>Solarized - тема системы</li>
+	<li>Tela blue dark - иконки</li>
+	<li>Breeze - курсор</li>
+</ul>
+
+<div class="res">
+<h2>Результат выполнения программы:</h2><br>
+
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/901930794858213386/solus-1024x581.png" alt="Solus-pin3apple"><p align="center"><b><a href="#">Solus Linux I3</a></b></p><br>
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/901930763866501160/fedora-1024x627.png" alt="Fedora-pin3apple"><p align="center"><b><a href="#">Fedora Linux I3</a></b></p><br>
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/901930778328465448/manjaro-1024x540.png" alt="Manjaro-pin3apple"><p align="center"><b><a href="#">Manjaro Linux I3</a></b></p><br>
+
+<h2>Как выглядит моя система:</h2>
+<a href="/posts/i3linux/"><img src="https://cdn.discordapp.com/attachments/650681889308278785/902660699916992532/i3linux.gif" alt="my-solus-i3"></a>
+<p align="center"><b><a href="/posts/i3linux/">Solus linux I3 PIN3APPLE</a></b></p>
+
+</div>
+
+<div class="instruction">
+	<h2>Как установить программу?</h2>
+	<ol>
+		<li>Скачиваем саму утилиту с гита - <code>git clone https://github.com/Avdushin/PIN3APPLE</code></li>
+		<li>Переходим в директорию -  <code>cd PIN3APPLE</code></li>
+		<p>Проводим установку:</p>
+		<li>Обычная установка (UBuntu, Solus, Manjaro, Fedora)- <code>./install.sh</code></li>
+		<li>Установка на Arch/Manjaro - <code>./manjaro-install.sh</code></li>
+	</ol>
+	<p>Програмама сама перезагрузит компьютер. <br> После перезагрузки выбираем сеанс i3 и входим в систему.</p>
+	<h2>Как удалить программу?</h2>
+	<img src="https://cdn.discordapp.com/attachments/650681889308278785/903180849736990740/unknown.png" alt="Uninstall-pin3apple">
+	<p><b>Выбираем 9 пункт -  удаление "Uninstall"</b></p>
+	<p>Запускается <b>PIN3APPLE UNINSTALLER</b></p>
+	<img src="https://cdn.discordapp.com/attachments/650681889308278785/903182370612580382/unknown.png" alt="Uninstaller-pin3apple">
+	<p>Выбираем <b>Дистрибутив</b> для удаление конфига I3. <br>Программа автоматически произведет перезагрузку после успешного выполнения - конфигурация I3 и все связанные с ним компоненты будут удалены.</p>
+</div>
+<h2>Итог:</h2>
+<p>Надеюсь вам будет полезна эта утилита. Она проста в использовании и позволяет поэксперементировать со своей <b>ОС</b>. Так же, если вы хотите попробовать оконный менеджер I3, вы можете использовать программу (конфиги) без потери ваших дополнительных <b>Дистрибутивов/Сред рабочего стола.</b></p>
+<p align="center" style="margin-top: 40px;"><b>Поддержать проект:</b></p>
+<div class="sup">
+	<a href="https://new.donatepay.ru/@ananazzbeginit">
+		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmobzik.ru%2Fuploads%2Fposts%2F2021-09%2Fdonatepay-strimy-igr-na-tvich-i-jutub.png&f=1&nofb=1" alt="donate">
+	</a>
+	<a href="https://new.donatepay.ru/@ananazzbeginit">
+		<img src="https://donatepay.ru/uploads/qr/849391/5528e11d-666a-4f95-bab2-8e2c46d0fa03.png" alt="donatepay-qr">
+	</a>
+</div>
