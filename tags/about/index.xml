@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on BeginIT</title>
+    
+    
+    
+    <link>http://d96365hr.beget.tech/tags/about/</link>
+    <description>Recent content in about on BeginIT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>Avdushin 2021</copyright>
+    <lastBuildDate>Sun, 24 Oct 2021 21:31:59 +0300</lastBuildDate>
+    
+	<atom:link href="http://d96365hr.beget.tech/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://d96365hr.beget.tech/about/</link>
+      <pubDate>Sun, 24 Oct 2021 21:31:59 +0300</pubDate>
+      
+      <guid>http://d96365hr.beget.tech/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
