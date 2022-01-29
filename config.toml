@@ -80,3 +80,12 @@ theme = 'hugo-theme-hello-friend'
         identifier = "sup"
         name = "Поддержать"
         url = "/sup"
+
+        # Comment config
+    [params.page.comment]
+      enable = true
+      # Disqus comment config (https://disqus.com/)
+      [params.page.comment.disqus]
+        enable = true
+        # Disqus shortname to use Disqus in posts
+        shortname = "https-avdushin-github-io-beginit-su"

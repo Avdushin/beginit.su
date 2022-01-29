@@ -1,0 +1,158 @@
+---
+title: "PIN3APPLE - БЫСТРАЯ НАСТРОЙКА I3"
+date: 2021-10-24T21:31:59+03:00
+author: "ANANAZZ"
+tags: ["Linux", "I3"]
+cover: "https://cdn.discordapp.com/attachments/650681889308278785/901917355976851536/cavai3.png"
+desctiption: "Всем доброго времени суток. Сегодня я бы хотел рассказать вам об оконных менеджерах в Linux, а именно о тайловых оконных менеджерах."
+
+---
+<h1>Тайловые оконные менеджеры Linux.</h1>
+<p>Всем доброго времени суток. Сегодня я бы хотел рассказать вам об оконных менеджерах в Linux, а именно о тайловых оконных менеджерах.</p>
+<h3>Что такое оконный менеджер?</h3>
+<p>Оконный менеджер - это приложение, которое отвечает за размещение, декорирование окон, взаимодействие с окнами - изменение размеров, максимизация, свёртывание, закрытие. Оконный менеджер взаимодействует с графическим сервером X11, который занимается взаимодействием c видеокартой и устройствами ввода/вывода.</p>
+<h3>Виды оконных менеджеров</h3>
+<p><strong>Оконные менеджеры бывают двух видов:</strong></p>
+<p><strong><em>Стековые</em></strong> - это оконные менеджеры, с плавающими окнами как на OS X или Windows. Самый простой случай, когда это просто обычные окна, которые можно расположить по оси Z (Окна перекрывают друг друга).</p>
+<center>
+
+<p><strong>OsX - Water</strong></p>
+
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/936613854295756820/unknown.png" alt="macos">
+
+<p><strong>Windows 10 - Explorer</strong></p>
+
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/936613907068502056/win10epx.jpg" alt="Windows">
+
+</center>
+
+<p><strong>Тайловые</strong> –  разбивают оконное пространство. “Тайловые” в переводе “Мозаичные”, то есть приложения занимают экранное пространство так, как будто оно разбито на “мозаику” из неперекрывающихся областей, окон или фреймов. Главный плюс тайловых оконных менеджеров в скорости работы с ними, невероятной легковесности и гибкой настройке под нужды пользователя.</p>
+<p><img src="https://cdn.discordapp.com/attachments/650681889308278785/902660699916992532/i3linux.gif" alt="Изображение"></p>
+<h3 id="-i3wm">Оконный менеджер I3wm</h3>
+<p>Рассмотрим именно I3wm, так как он легок в настройке и не требует знания языков программирования(Lua или Haskell).</p>
+
+
+<p>Вся конфигурация системы содержится в одном файле <em><strong>« ~/.config/i3/config »</strong></em>. После внесения изменений в конфиг нужно нажать $mod+shift+r (Win+shift+r).</p>
+
+
+<p>Клавиша $mod - главная клавиша в системе, она тут вместо клавиши <strong>Win</strong> или <strong>Command</strong>, с её помощью осуществляется управление окнами (перемещение/открытие/закрытие/изменение размера окон).</p>
+
+
+<p>$mod может быть либо клавишей <strong>Super/Win/CMD</strong> или же Alt/<strong>Option</strong> на вашей клавиатуре.</p>
+
+
+<p><img src="https://cdn.discordapp.com/attachments/650681889308278785/901926218495066183/D0B8D0B7D0BED0B1D180D0B0D0B6D0B5D0BDD0B8D0B5-6-1024x578.png" alt="Изображдение"></p>
+<center> 
+
+<p>Так выглядит конфиг I3wm <code>"~/.config/i3/config"</code></p>
+
+
+
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/901926988703465492/D0B8D0B7D0BED0B1D180D0B0D0B6D0B5D0BDD0B8D0B5-1024x576.png" alt="Изображение">
+
+<center>
+
+<p>Настройка мониторов (в моём случае двух)</p>
+
+
+</center>
+
+<p></center></p>
+<p><img src="https://cdn.discordapp.com/attachments/650681889308278785/901927473657315348/D0B8D0B7D0BED0B1D180D0B0D0B6D0B5D0BDD0B8D0B5-1-1024x576.png" alt="Изображение"></p>
+<p><em>Настройка запуска приложений (они осуществляются по горячим клавишам или через меню приложений dmenu или rofi)</em></p>
+<p><img src="https://cdn.discordapp.com/attachments/650681889308278785/901927739987202048/iu.png" alt="Изображение"></p>
+<p><em>Меню запуска приложений Rofi</em></p>
+<p><strong>Polybar</strong> - панель с рабочими столами и прочими модулями.</p>
+<p><img src="https://cdn.discordapp.com/attachments/650681889308278785/901928583231062096/D0B8D0B7D0BED0B1D180D0B0D0B6D0B5D0BDD0B8D0B5-2-1024x23.png" alt="img"></p>
+<p>Polyabr настраивается в одном файле так же как и I3 - <code>&quot;~/.config/polybar/config&quot;</code></p>
+<p><img src="https://cdn.discordapp.com/attachments/650681889308278785/901928950295592961/D0B8D0B7D0BED0B1D180D0B0D0B6D0B5D0BDD0B8D0B5-3-1024x576.png" alt="img"></p>
+<p><em>Так выглядит конфиг <strong>polybar</strong></em></p>
+<p></center></p>
+<p>Используя I3wm вы узнаете много  новых консольных приложений и они будут нести большую ценность для вас.</p>
+<h3 id="-i3">Мой конфиг I3</h3>
+<p>На случай если я решу перейти на другой Linux дистрибутив и мне нужно будет заново устанавливать систему, я написал небольшую утилитку, которая помогает быстро настроить конфиг i3 и установить нужные мне компоненты:</p>
+<p><strong>Приложения:</strong></p>
+<ul>
+<li>Sublime text 4  -  мой любимый редактор кода</li>
+</ul>
+<ul>
+<li>polybar - панель (панель задач) </li>
+</ul>
+<ul>
+<li>kitty - терминал </li>
+</ul>
+<ul>
+<li>krita - редактор изображений  </li>
+</ul>
+<ul>
+<li>variety - обои рабочего стола с простым и понятным графическим интерфейсом </li></ul></li>
+</ul>
+<ul>
+<li>flameshot - создание скриншотов </li>
+</ul>
+<ul>
+<li>rofi - системное меню</li>
+</ul>
+<ul>
+<li>discord - соц.сеть для общения с друзьями </li>
+</ul>
+<ul>
+<li>steam - лаунчер для игр </li>
+</ul>
+<ul>
+<li>telegram - месенджер  </li>
+</ul>
+<ul>
+<li>gcolor3 - подборка цветов hex, RGB/RGBA </li>
+</ul>
+<ul>
+<li>lxappearance  - утилита для настройки темы   </li>
+</ul>
+<p><strong>Темы:</strong></p>
+<ul>
+<li>Solarized - тема системы</li>
+<li>Tela blue dark - иконки</li>
+<li>Breeze - курсор</li>
+</ul>
+<h3>Как установить утилиту (конфиг)?</h3>
+<p>Моя небольшая утилита, помогающая настроить конфиг I3wm лежит на моем git репозитории - <a href="https://github.com/Avdushin/PIN3APPLE">https://github.com/Avdushin/PIN3APPLE</a></p>
+<p>Буду рад, если вам будет полезно её использование. </p>
+<h3>Как использовать утилиту?</h3>
+<center>
+
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/901929931355877447/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3635303638313838393330383237383738352f3930303837313139313139383331303434302f756e6b6e6f776e2e706e67.png" alt="img">
+
+</center>
+<br>
+<ol>
+	<li>Скачиваем саму утилиту с гита - <code>git clone https://github.com/Avdushin/PIN3APPLE</code></li>
+	<li>Переходим в директорию -  <code>cd PIN3APPLE</code></li>
+	<li>Проводим установку: <code>./install.sh</code></li>
+</ol>
+
+<p><em>Програмама сама перезагрузит компьютер, после перезагрузки выбираем сеанс i3 и входим в систему.</em></p>
+
+<h4>Как выглядит система после перезагрузки:</h4>
+
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/901930794858213386/solus-1024x581.png" alt="Solus">
+<p align="center"><b>Solus</b></p>
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/901930763866501160/fedora-1024x627.png" alt="fedora">
+<p align="center"><b>Fedora</b></p>
+<img src="https://cdn.discordapp.com/attachments/650681889308278785/901930778328465448/manjaro-1024x540.png" alt="Manjaro">
+<p align="center"><b>Manjaro</b></p> <br>
+
+<div id="disqus_thread"></div>
+
+<script>
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-avdushin-github-io-beginit-su.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
