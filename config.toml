@@ -1,4 +1,4 @@
-baseURL = 'beginit.su/'
+baseURL = '/beginit.su/'
 languageCode = 'ru-ru'
 title = '🧐 BeginIT'
 theme = 'hugo-theme-hello-friend'
