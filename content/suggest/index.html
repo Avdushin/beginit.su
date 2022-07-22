@@ -4,7 +4,8 @@ title: "Предложить статью"
 draft: false
 ---
 
-<form id="my-form" action="https://formspree.io/f/xpzbvydb" method="POST">
+<form id="my-form" action="form.php" method="POST">
+<!-- <form id="my-form" action="https://formspree.io/f/xpzbvydb" method="POST"> -->
     <label>Email:</label>
     <input type="email" name="email" />
     <label>Message:</label>
@@ -53,7 +54,7 @@ draft: false
 <div class="container">
     <div class="log-form">
         <!-- <h2>Заполните форму</h2> 
-        <form class="telegram-form">
+        <form class="telegram-form" method="post" action="form.php">
           <input type="text" name="name" placeholder="Имя"/>
           <input type="text" name="nick" placeholder="Никнейм"/>
           <input type="text" name="email" placeholder="Email"/>
