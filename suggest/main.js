@@ -53,7 +53,7 @@ $('.telegram-form').on('submit', function (event) {
             return myXhr;
         },
         error: function( jqXHR, textStatus ) {
-            // Тут выводим ошибку
+            window.alert("Неудалось отправить форму!")
         },
         complete: function() {
             window.location.href = "./sended.html"
