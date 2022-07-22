@@ -10,7 +10,8 @@ draft: false
 
 <div class="container">
     <div class="log-form">
-        <form class="telegram-form" id="my-form" action="form.php" method="POST">
+        <!-- <h2>Заполните форму</h2> -->
+        <form class="telegram-form" method="POST" action="form.php"">
           <input type="text" name="name" placeholder="Имя"/>
           <input type="text" name="nick" placeholder="Никнейм"/>
           <input type="text" name="email" placeholder="Email"/>
@@ -18,86 +19,9 @@ draft: false
           <label for="file" class="file-label"><i class="bi bi-paperclip"></i> Добавить фото</label>
           <input type="file" name="file" id="file">
           <button type="submit" class="btn">отправить</button>
-          <p id="my-form-status"></p>
         </form>
       </div>
 </div>
 
-<script>
-    var form = document.getElementById("my-form");
-    
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          status.innerHTML = "Thanks for your submission!";
-          form.reset()
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-            } else {
-              status.innerHTML = "Oops! There was a problem submitting your form"
-            }
-          })
-        }
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
-</script>
-
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="./main.js"></script> -->
-
-<!-- <form id="my-form" action="form.php" method="POST">
-<!-- <form id="my-form" action="https://formspree.io/f/xpzbvydb" method="POST"> 
-    <label>Email:</label>
-    <input type="email" name="email" />
-    <label>Message:</label>
-    <input type="text" name="message" />
-    <button id="my-form-button">Submit</button>
-    <p id="my-form-status"></p>
-  </form>
-  <!-- Place this script at the end of the body tag
-  <script>
-      var form = document.getElementById("my-form");
-      
-      async function handleSubmit(event) {
-        event.preventDefault();
-        var status = document.getElementById("my-form-status");
-        var data = new FormData(event.target);
-        fetch(event.target.action, {
-          method: form.method,
-          body: data,
-          headers: {
-              'Accept': 'application/json'
-          }
-        }).then(response => {
-          if (response.ok) {
-            status.innerHTML = "Thanks for your submission!";
-            form.reset()
-          } else {
-            response.json().then(data => {
-              if (Object.hasOwn(data, 'errors')) {
-                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-              } else {
-                status.innerHTML = "Oops! There was a problem submitting your form"
-              }
-            })
-          }
-        }).catch(error => {
-          status.innerHTML = "Oops! There was a problem submitting your form"
-        });
-      }
-      form.addEventListener("submit", handleSubmit)
-  </script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./main.js"></script>
