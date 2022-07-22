@@ -13,9 +13,7 @@ $('.telegram-form').on('submit', function (event) {
     $('input, textarea', form).attr('disabled','');
 
     data.append( 'Имя', 		$('[name="name"]', form).val() );
-    data.append( 'Фамилия', 		$('[name="surname"]', form).val() );
-    data.append( 'Отчество', 		$('[name="patronymic"]', form).val() );
-    data.append( 'Телефон', 		$('[name="phone"]', form).val() );
+    data.append( 'Никнкйм', 		$('[name="nick"]', form).val() );
     data.append( 'Email', 		$('[name="email"]', form).val() );
     data.append( 'Сообщение', 		$('[name="message"]', form).val() );
     data.append( 'Файл', 		$('[name="file"]', form).val() );
