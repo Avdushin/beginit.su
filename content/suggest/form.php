@@ -15,7 +15,7 @@ $param = [
     "text" => $text
 ];
 
-$url = "https://api.telegram.org/bot" . $bot_token . "/sendMessage?" . http_build_query($param);
+$url = "https://api.telegram.org/bot" ."5353949258:AAHb-ckf2Y9fzHOsT6KZls1mBVdVnHB5TBM" . "/sendMessage?" . http_build_query($param);
 
 var_dump($text);
 
@@ -23,7 +23,7 @@ file_get_contents($url);
 
 foreach ( $_FILES as $file ) {
 
-    $url = "https://api.telegram.org/bot" . $bot_token . "/sendDocument";
+    $url = "https://api.telegram.org/bot" ."5353949258:AAHb-ckf2Y9fzHOsT6KZls1mBVdVnHB5TBM" . "/sendDocument";
 
     move_uploaded_file($file['tmp_name'], $file['name']);
 
