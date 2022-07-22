@@ -4,6 +4,61 @@ title: "Предложить статью"
 draft: false
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="./main.css">
+
+<div class="container">
+    <div class="log-form">
+        <form class="telegram-form" id="my-form" action="form.php" method="POST">
+          <input type="text" name="name" placeholder="Имя"/>
+          <input type="text" name="nick" placeholder="Никнейм"/>
+          <input type="text" name="email" placeholder="Email"/>
+          <textarea name="message" placeholder="Введите сообщение..."></textarea>
+          <label for="file" class="file-label"><i class="bi bi-paperclip"></i> Добавить фото</label>
+          <input type="file" name="file" id="file">
+          <button type="submit" class="btn">отправить</button>
+          <p id="my-form-status"></p>
+        </form>
+      </div>
+</div>
+
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./main.js"></script> -->
+
 <!-- <form id="my-form" action="form.php" method="POST">
 <!-- <form id="my-form" action="https://formspree.io/f/xpzbvydb" method="POST"> 
     <label>Email:</label>
@@ -46,24 +101,3 @@ draft: false
       }
       form.addEventListener("submit", handleSubmit)
   </script> -->
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="./main.css">
-
-<div class="container">
-    <div class="log-form">
-        <form class="telegram-form" method="post" action="form.php" id="my-form">
-          <input type="text" name="name" placeholder="Имя"/>
-          <input type="text" name="nick" placeholder="Никнейм"/>
-          <input type="text" name="email" placeholder="Email"/>
-          <textarea name="message" placeholder="Введите сообщение..."></textarea>
-          <label for="file" class="file-label"><i class="bi bi-paperclip"></i> Добавить фото</label>
-          <input type="file" name="file" id="file">
-          <button type="submit" class="btn">отправить</button>
-        </form>
-      </div>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="./main.js"></script>
