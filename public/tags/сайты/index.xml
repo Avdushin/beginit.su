@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Проекты on BeginIT</title>
+    <title>Сайты on BeginIT</title>
     
     
     
-    <link>/beginit.su/tags/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/</link>
-    <description>Recent content in Проекты on BeginIT</description>
+    <link>/beginit.su/tags/%D1%81%D0%B0%D0%B9%D1%82%D1%8B/</link>
+    <description>Recent content in Сайты on BeginIT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>ANANAZZ - BEGINIT</copyright>
     <lastBuildDate>Fri, 22 Jul 2022 19:25:56 +0300</lastBuildDate>
     
-	<atom:link href="/beginit.su/tags/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/beginit.su/tags/%D1%81%D0%B0%D0%B9%D1%82%D1%8B/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -36,25 +36,6 @@ MovieSearch JS REACT Movie search application by ReactJS
 Site for Crypto Company
 YBds Site WEB
 Discord chanel of NFTLook crypto company
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>PIN3APPLE</title>
-      <link>/beginit.su/projects/pin3apple/</link>
-      <pubDate>Thu, 28 Oct 2021 01:15:03 +0300</pubDate>
-      
-      <guid>/beginit.su/projects/pin3apple/</guid>
-      <description>
-        
-          &lt;img src=&#34;https://cdn.discordapp.com/attachments/650681889308278785/903180849736990740/unknown.png&#34;/&gt;
-          
-        
-        
-        
-          PIN3APPLE - небольшая утилита, помогающая быстро настроить конфиг I3.
           
         
         </description>

@@ -10,10 +10,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>ANANAZZ - BEGINIT</copyright>
-    <lastBuildDate>Thu, 28 Oct 2021 01:15:03 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jul 2022 19:25:56 +0300</lastBuildDate>
     
 	<atom:link href="/beginit.su/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Мои Работы</title>
+      <link>/beginit.su/projects/sites/</link>
+      <pubDate>Fri, 22 Jul 2022 19:25:56 +0300</pubDate>
+      
+      <guid>/beginit.su/projects/sites/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://cdn.discordapp.com/attachments/650681889308278785/1000115933584564304/unknown.png&#34;/&gt;
+          
+        
+        
+        
+          Pet-проекты GOAPPLE GO shells GOAPPLE is a small application for quickly customizing the I3-WM window manager.
+WinixTools GO Batch Unux tools for Windows ls, ll, cat, clear
+Gocoins GO shells GOAPPLE is a small application for quickly customizing the I3-WM window manager.
+MovieSearch JS REACT Movie search application by ReactJS
+Сайты Zano Site WEB
+Site for Crypto Company
+YBds Site WEB
+Discord chanel of NFTLook crypto company
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Правила для авторов</title>
@@ -173,6 +199,26 @@ TelegramTwitterPost
         
         
           СПАСИБО ЗА ПОДДЕРЖКУ!Поддержать проект - Donatepay
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Предложить статью</title>
+      <link>/beginit.su/suggest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/beginit.su/suggest/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+           Добавить фото отправить 
           
         
         </description>
