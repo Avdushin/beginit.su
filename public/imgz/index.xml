@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Imgzs on BeginIT</title>
+    
+    
+    
+    <link>/beginit.su/imgz/</link>
+    <description>Recent content in Imgzs on BeginIT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>ANANAZZ - BEGINIT</copyright>
+    <lastBuildDate>Sun, 24 Oct 2021 21:31:59 +0300</lastBuildDate>
+    
+	<atom:link href="/beginit.su/imgz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PIN3APPLE - БЫСТРАЯ НАСТРОЙКА I3</title>
+      <link>/beginit.su/imgz/i3linux/</link>
+      <pubDate>Sun, 24 Oct 2021 21:31:59 +0300</pubDate>
+      
+      <guid>/beginit.su/imgz/i3linux/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://cdn.discordapp.com/attachments/650681889308278785/901917355976851536/cavai3.png&#34;/&gt;
+          
+        
+        
+        
+          Тайловые оконные менеджеры Linux. Всем доброго времени суток. Сегодня я бы хотел рассказать вам об оконных менеджерах в Linux, а именно о тайловых оконных менеджерах.
+Что такое оконный менеджер? Оконный менеджер - это приложение, которое отвечает за размещение, декорирование окон, взаимодействие с окнами - изменение размеров, максимизация, свёртывание, закрытие. Оконный менеджер взаимодействует с графическим сервером X11, который занимается взаимодействием c видеокартой и устройствами ввода/вывода.
+Виды оконных менеджеров Оконные менеджеры бывают двух видов:
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
