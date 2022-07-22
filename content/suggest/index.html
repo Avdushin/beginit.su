@@ -1,0 +1,27 @@
+---
+title: "Предложить статью"
+<!-- date: 2022-07-22T23:54:39+03:00 -->
+draft: true
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="./main.css">
+
+<div class="container">
+    <div class="log-form">
+        <!-- <h2>Заполните форму</h2> -->
+        <form class="telegram-form">
+          <input type="text" name="name" placeholder="Имя"/>
+          <input type="text" name="nick" placeholder="Никнейм"/>
+          <input type="text" name="email" placeholder="Email"/>
+          <textarea name="message" placeholder="Введите сообщение..."></textarea>
+          <label for="file" class="file-label"><i class="bi bi-paperclip"></i> Добавить фото</label>
+          <input type="file" name="file" id="file">
+          <button type="submit" class="btn">отправить</button>
+        </form>
+      </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./main.js"></script>
