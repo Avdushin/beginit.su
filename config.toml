@@ -1,5 +1,5 @@
-# baseURL = '/' # dev
-baseURL = '/beginit.su/' #release
+baseURL = '/' # dev
+# baseURL = '/beginit.su/' #release
 languageCode = 'ru-ru'
 title = '🧐 BeginIT'
 theme = 'hugo-theme-hello-friend'
@@ -50,7 +50,7 @@ theme = 'hugo-theme-hello-friend'
 
     [languages.en.params.logo]
       logoText = "BeginIT"
-      logoHomeLink = "/beginit.su/"
+      logoHomeLink = "/"
     # or
     #
     # path = "/img/beginIt-icon.png"

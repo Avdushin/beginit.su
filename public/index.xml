@@ -5,22 +5,22 @@
     
     
     
-    <link>/beginit.su/</link>
+    <link>/</link>
     <description>Recent content on BeginIT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>ANANAZZ - BEGINIT</copyright>
     <lastBuildDate>Fri, 22 Jul 2022 19:25:56 +0300</lastBuildDate>
     
-	<atom:link href="/beginit.su/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Мои Работы</title>
-      <link>/beginit.su/projects/sites/</link>
+      <link>/projects/sites/</link>
       <pubDate>Fri, 22 Jul 2022 19:25:56 +0300</pubDate>
       
-      <guid>/beginit.su/projects/sites/</guid>
+      <guid>/projects/sites/</guid>
       <description>
         
           &lt;img src=&#34;https://cdn.discordapp.com/attachments/650681889308278785/1000115933584564304/unknown.png&#34;/&gt;
@@ -43,10 +43,10 @@ Discord chanel of NFTLook crypto company
     
     <item>
       <title>Правила для авторов</title>
-      <link>/beginit.su/authterms/</link>
+      <link>/authterms/</link>
       <pubDate>Mon, 01 Nov 2021 17:26:53 +0300</pubDate>
       
-      <guid>/beginit.su/authterms/</guid>
+      <guid>/authterms/</guid>
       <description>
         
           
@@ -65,10 +65,10 @@ TelegramTwitterPost
     
     <item>
       <title>PIN3APPLE</title>
-      <link>/beginit.su/projects/pin3apple/</link>
+      <link>/projects/pin3apple/</link>
       <pubDate>Thu, 28 Oct 2021 01:15:03 +0300</pubDate>
       
-      <guid>/beginit.su/projects/pin3apple/</guid>
+      <guid>/projects/pin3apple/</guid>
       <description>
         
           &lt;img src=&#34;https://cdn.discordapp.com/attachments/650681889308278785/903180849736990740/unknown.png&#34;/&gt;
@@ -84,10 +84,10 @@ TelegramTwitterPost
     
     <item>
       <title>PIN3APPLE - БЫСТРАЯ НАСТРОЙКА I3</title>
-      <link>/beginit.su/imgz/i3linux/</link>
+      <link>/imgz/i3linux/</link>
       <pubDate>Sun, 24 Oct 2021 21:31:59 +0300</pubDate>
       
-      <guid>/beginit.su/imgz/i3linux/</guid>
+      <guid>/imgz/i3linux/</guid>
       <description>
         
           &lt;img src=&#34;https://cdn.discordapp.com/attachments/650681889308278785/901917355976851536/cavai3.png&#34;/&gt;
@@ -105,10 +105,10 @@ TelegramTwitterPost
     
     <item>
       <title>PIN3APPLE - БЫСТРАЯ НАСТРОЙКА I3</title>
-      <link>/beginit.su/posts/i3linux/</link>
+      <link>/posts/i3linux/</link>
       <pubDate>Sun, 24 Oct 2021 21:31:59 +0300</pubDate>
       
-      <guid>/beginit.su/posts/i3linux/</guid>
+      <guid>/posts/i3linux/</guid>
       <description>
         
           &lt;img src=&#34;https://cdn.discordapp.com/attachments/650681889308278785/901917355976851536/cavai3.png&#34;/&gt;
@@ -126,10 +126,10 @@ TelegramTwitterPost
     
     <item>
       <title></title>
-      <link>/beginit.su/authorth/</link>
+      <link>/authorth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/beginit.su/authorth/</guid>
+      <guid>/authorth/</guid>
       <description>
         
           
@@ -146,10 +146,10 @@ TelegramTwitterPost
     
     <item>
       <title>CV</title>
-      <link>/beginit.su/cv/</link>
+      <link>/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/beginit.su/cv/</guid>
+      <guid>/cv/</guid>
       <description>
         
           
@@ -166,10 +166,10 @@ TelegramTwitterPost
     
     <item>
       <title>О ПРОЕКТЕ</title>
-      <link>/beginit.su/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/beginit.su/about/</guid>
+      <guid>/about/</guid>
       <description>
         
           
@@ -186,10 +186,10 @@ TelegramTwitterPost
     
     <item>
       <title>Поддержать проект</title>
-      <link>/beginit.su/sup/</link>
+      <link>/sup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/beginit.su/sup/</guid>
+      <guid>/sup/</guid>
       <description>
         
           
@@ -206,10 +206,10 @@ TelegramTwitterPost
     
     <item>
       <title>Предложить статью</title>
-      <link>/beginit.su/suggest/</link>
+      <link>/suggest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/beginit.su/suggest/</guid>
+      <guid>/suggest/</guid>
       <description>
         
           
@@ -218,7 +218,7 @@ TelegramTwitterPost
         
         
         
-           Добавить фото отправить 
+           
           
         
         </description>
