@@ -1,5 +1,5 @@
-baseURL = '/' # dev
-# baseURL = '/beginit.su/' #release
+# baseURL = '/' # dev
+baseURL = '/beginit.su/' #release
 languageCode = 'ru-ru'
 title = '🧐 BeginIT'
 theme = 'hugo-theme-hello-friend'
